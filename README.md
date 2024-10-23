@@ -5,11 +5,14 @@ Recientemente se cuenta con una nueva herramienta para la resolución de ecuacio
 Implementamos las PINNs utilizando la biblioteca de funciones DeepXDE con backend de tensorflow para la resolución de la ecuación de onda. Los datos de entrenamiento utilizados en el segundo caso fueron generados sintéticamente de la solución por diferencias finitas de la ecuación de onda. 
 
 ## Solución
-!https://github.com/Ceciliaces/PINN_1D_Wave_Equation/blob/main/Onda%201D%20DF%20No%20Homogeneo%20Caso%201.gif))
+|Caso 1 (DF vs. PINN)|Caso 2 (DF vs. PINN)|
+|:---:|:---:|
+|![caso1](https://github.com/Ceciliaces/PINN_1D_Wave_Equation/blob/main/Onda%201D%20DF%20No%20Homogeneo%20Caso%201.gif)|![caso2](https://github.com/Ceciliaces/PINN_1D_Wave_Equation/blob/main/Onda%201D%20DF%20No%20Homogeneo%20Caso%202.gif)|
 
 
 ## Uso
 Para correr el código de la PINN del caso 1, este se encuentra en <code> PINN caso 1.ipynb </code>. 
+Para correr el código de la PINN del caso 2, este se encuentra en <code> PINN caso 2.ipynb </code>. 
 
 ## Dependencias
 El código se realizó utilizando <code> python 3.8.16 </code> y las siguientes paqueterías:
@@ -19,3 +22,4 @@ El código se realizó utilizando <code> python 3.8.16 </code> y las siguientes 
 |numpy                        |1.24.3|
 |matplotlib                   |3.7.1|
 |tensorflow                   |2.13.0|
+|deepxde                      |1.9.2|
